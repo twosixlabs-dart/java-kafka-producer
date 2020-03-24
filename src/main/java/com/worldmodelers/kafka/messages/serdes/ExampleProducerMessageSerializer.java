@@ -1,8 +1,8 @@
-package com.worldmodelers.com.kafka.messages.serdes;
+package com.worldmodelers.kafka.messages.serdes;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
-import com.worldmodelers.com.kafka.messages.ExampleProducerMessage;
-import com.worldmodelers.com.kafka.messages.ExampleProducerMessageJsonFormat;
+import com.worldmodelers.kafka.messages.ExampleProducerMessage;
+import com.worldmodelers.kafka.messages.ExampleProducerMessageJsonFormat;
 import org.apache.kafka.common.serialization.Serializer;
 
 import java.util.Map;

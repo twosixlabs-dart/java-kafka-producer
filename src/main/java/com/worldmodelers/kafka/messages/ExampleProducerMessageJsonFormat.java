@@ -1,4 +1,4 @@
-package com.worldmodelers.com.kafka.messages;
+package com.worldmodelers.kafka.messages;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
