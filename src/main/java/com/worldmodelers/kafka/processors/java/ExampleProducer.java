@@ -1,4 +1,4 @@
-package com.worldmodelers.kafka.producer.java;
+package com.worldmodelers.kafka.processors.java;
 
 import com.worldmodelers.kafka.messages.ExampleProducerMessage;
 import com.worldmodelers.kafka.messages.serdes.ExampleProducerMessageSerde;
