@@ -8,7 +8,7 @@
     <artifactId>java-kafka-producer</artifactId>
     <version>1.0-SNAPSHOT</version>
     <build>
-        <finalName>java-kafka-streams</finalName>
+        <finalName>java-kafka-producer</finalName>
         <plugins>
 
             <plugin>
