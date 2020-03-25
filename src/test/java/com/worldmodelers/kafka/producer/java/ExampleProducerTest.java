@@ -1,4 +1,4 @@
-package com.worldmodelers.kafka.processors.java;
+package com.worldmodelers.kafka.producer.java;
 
 import com.worldmodelers.kafka.messages.ExampleProducerMessage;
 import com.worldmodelers.kafka.messages.ExampleProducerMessageJsonFormat;
@@ -6,8 +6,6 @@ import kafka.server.KafkaConfig$;
 import net.mguenther.kafka.junit.*;
 import org.junit.Rule;
 import org.junit.Test;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -15,11 +13,9 @@ import java.util.List;
 import java.util.Properties;
 import java.util.concurrent.ExecutionException;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 public class ExampleProducerTest extends ExampleProducerMessageJsonFormat {
-
-    private final Logger LOG = LoggerFactory.getLogger( ExampleProducerTest.class );
 
     private EmbeddedKafkaConfig kafkaConfig = EmbeddedKafkaConfig
             .create()
